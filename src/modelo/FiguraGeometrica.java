@@ -2,6 +2,10 @@ package modelo;
 
 public class FiguraGeometrica {
 
+    /* Añadido constructor por David Bastos Alonso */
+    public FiguraGeometrica() {
+    }
+
     private int numLados;
     private String nombre;
     private static final int MIN_NUMBER = 3;
@@ -18,7 +22,23 @@ public class FiguraGeometrica {
         this.numLados = numLados;
         this.nombre = nombre;
     }
+    /* Añadido por David Bastos Alonso */
 
+    public int getNumLados() {
+        return this.numLados;
+    }
+
+    public void setNumLados(int numLados) {
+        this.numLados = numLados;
+    }
+
+    public String getNombre() {
+        return this.nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 
 
    
